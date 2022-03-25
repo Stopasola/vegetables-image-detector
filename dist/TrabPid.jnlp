@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TrabPid.jnlp">
+  <information>
+    <title>TrabPid</title>
+    <vendor>Fernando-</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Djava.library.path="C:\opencv\build\x64" "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TrabPid.jar" size="20865" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="TrabPid" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="trabpid.TrabPid"  name="TrabPid" />
+  <update check="always"/>
+</jnlp>
